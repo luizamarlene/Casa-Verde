@@ -1,0 +1,15 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+/* vai ser usado em toda pag */
+
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    background:url(../../assets/img/textura.png), url(../../assets/img/icones/linhas.png) ;
+    background-position: center;
+}
+
+.container {
+    padding: 0 1rem;
+}
