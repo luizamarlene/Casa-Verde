@@ -4,12 +4,42 @@
 /* vai ser usado em toda pag */
 
 body {
-    font-family: var(--familia-corpo);
-    font-size: var(--tamanho-corpo);
-    background:url(../../assets/img/textura.png), url(../../assets/img/icones/linhas.png) ;
-    background-position: center;
+  font-family: var(--familia-corpo);
+  font-size: var(--tamanho-corpo);
+  color: var(--cinza);
+  background: url(../../assets/img/textura.png),
+    url(../../assets/img/icones/linhas.png);
+  background-position: center;
 }
 
 .container {
-    padding: 0 1rem;
+  padding: 0 1rem;
+}
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.texto {
+    line-height: 26px;
 }
